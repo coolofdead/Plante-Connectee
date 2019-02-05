@@ -1,0 +1,211 @@
+# depslib dependency file v1.0
+1544716252 source:c:\users\thomas\documents\pante connectée\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+	"DecimalToBinaire.h"
+
+1544716132 c:\users\thomas\documents\pante connectée\binairetodecimal.h
+
+1544716017 source:c:\users\thomas\documents\pante connectée\binairetodecimal.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+
+1544716425 c:\users\thomas\documents\pante connectée\decimaltobinaire.h
+
+1544716415 source:c:\users\thomas\documents\pante connectée\decimaltobinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"DecimalToBinaire.h"
+
+1544717248 source:c:\users\thomas\documents\pante connectée\arraydynamic.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"ArrayDynamic.h"
+
+1544717721 c:\users\thomas\documents\pante connectée\arraydynamic.h
+
+1544718268 source:c:\users\thomas\documents\pante connectée\tampon.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"Tampon.h"
+
+1544718015 c:\users\thomas\documents\pante connectée\tampon.h
+	"ArrayDynamic.h"
+
+1544717248 source:c:\users\thomas\documents\pante connectee\arraydynamic.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"ArrayDynamic.h"
+
+1544717721 c:\users\thomas\documents\pante connectee\arraydynamic.h
+
+1544716017 source:c:\users\thomas\documents\pante connectee\binairetodecimal.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+
+1544716132 c:\users\thomas\documents\pante connectee\binairetodecimal.h
+
+1544716415 source:c:\users\thomas\documents\pante connectee\decimaltobinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"DecimalToBinaire.h"
+
+1544716425 c:\users\thomas\documents\pante connectee\decimaltobinaire.h
+
+1544716252 source:c:\users\thomas\documents\pante connectee\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+	"DecimalToBinaire.h"
+
+1544718268 source:c:\users\thomas\documents\pante connectee\tampon.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"Tampon.h"
+
+1544718015 c:\users\thomas\documents\pante connectee\tampon.h
+	"ArrayDynamic.h"
+
+1544796797 source:c:\users\thomas\onedrive - ynov\cours c\pante connectee\arraydynamic.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+
+1544805102 c:\users\thomas\onedrive - ynov\cours c\pante connectee\arraydynamic.h
+
+1544955376 source:c:\users\thomas\onedrive - ynov\cours c\pante connectee\binairetodecimal.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+
+1544955383 c:\users\thomas\onedrive - ynov\cours c\pante connectee\binairetodecimal.h
+
+1544955374 source:c:\users\thomas\onedrive - ynov\cours c\pante connectee\decimaltobinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"DecimalToBinaire.h"
+
+1544955401 c:\users\thomas\onedrive - ynov\cours c\pante connectee\decimaltobinaire.h
+
+1545068188 source:c:\users\thomas\onedrive - ynov\cours c\pante connectee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"BinaireToDecimal.h"
+	"DecimalToBinaire.h"
+	"FileManaging.h"
+
+1544806063 source:c:\users\thomas\onedrive - ynov\cours c\pante connectee\tampon.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"Tampon.h"
+
+1544805834 c:\users\thomas\onedrive - ynov\cours c\pante connectee\tampon.h
+
+1545068115 source:c:\users\thomas\onedrive - ynov\cours c\pante connectee\filemanaging.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"FileManaging.h"
+
+1544955388 c:\users\thomas\onedrive - ynov\cours c\pante connectee\filemanaging.h
+
+1544793689 c:\users\thomas\onedrive - ynov\cours c\pante connectee\decimaltobinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"DecimalToBinaire.h"
+
+1544782757 c:\users\thomas\onedrive - ynov\cours c\pante connectee\arraydynamic.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	"ArrayDynamic.h"
+
+1544955376 source:c:\users\thomas\onedrive - ynov\cours c\plante connectee\binairetodecimal.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+
+1544955383 c:\users\thomas\onedrive - ynov\cours c\plante connectee\binairetodecimal.h
+
+1544955374 source:c:\users\thomas\onedrive - ynov\cours c\plante connectee\decimaltobinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"DecimalToBinaire.h"
+
+1544955401 c:\users\thomas\onedrive - ynov\cours c\plante connectee\decimaltobinaire.h
+
+1545072671 source:c:\users\thomas\onedrive - ynov\cours c\plante connectee\filemanaging.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"FileManaging.h"
+
+1545072187 c:\users\thomas\onedrive - ynov\cours c\plante connectee\filemanaging.h
+
+1545072191 source:c:\users\thomas\onedrive - ynov\cours c\plante connectee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"time.h"
+	"BinaireToDecimal.h"
+	"DecimalToBinaire.h"
+	"FileManaging.h"
+
+1544955376 source:c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\binairetodecimal.c
+	<stdlib.h>
+	<stdio.h>
+	<math.h>
+	<stdbool.h>
+	"BinaireToDecimal.h"
+
+1544955383 c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\binairetodecimal.h
+
+1544955374 source:c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\decimaltobinaire.c
+	<stdio.h>
+	<stdlib.h>
+	<stdbool.h>
+	"DecimalToBinaire.h"
+
+1544955401 c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\decimaltobinaire.h
+
+1545072671 source:c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\filemanaging.c
+	<stdlib.h>
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	"FileManaging.h"
+
+1545072187 c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\filemanaging.h
+
+1545072191 source:c:\users\thomas\onedrive - ynov\cours dev\cours c\plante connectee\main.c
+	<stdio.h>
+	<stdlib.h>
+	"time.h"
+	"BinaireToDecimal.h"
+	"DecimalToBinaire.h"
+	"FileManaging.h"
+
