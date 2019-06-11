@@ -1,0 +1,8 @@
+Suis les steps pour bien setup le projet.
+Attention, ce projet est tout en 1, il faut donc lancer 2 codeblocs avec 2 consoles du projet pour le faire tourner simultanément.
+
+ATTENTION :
+Lancer en premier le write (1)
+Puis le read (0)
+
+Merci et amusez vous bien !
