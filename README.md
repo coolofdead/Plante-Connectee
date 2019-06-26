@@ -1,4 +1,6 @@
-**Présentation du projet plante connectée :**
+#**Présentation du projet plante connectée :**#
+
+##Mise en place de l'Arduino##
 
 Pour faire fonctionner ce projet, il vous faudra télécharger les fichiers suivant :
 - Arduino
@@ -11,11 +13,7 @@ Une fois un compte crée il vous faut copier coller le [code Arduino](https://gi
 Une fois cela fait, choisissez dans les boards l'**Arduino Uno Wifi Rev2** :
 Format: ![Arduino Board Select](/Images/Arduino_Board.png)
 
-Le contenu à droite, quand à lui, contient les catégories importantes :
-- Services
-- About Me
-- Portfolio
-- Contact
+Il ne vous reste plus qu'à téléverser le tout dans l'Arduino.
 
 
-
+##Mise en place du python##
