@@ -22,8 +22,10 @@ Il ne vous reste plus qu'à téléverser le tout dans l'Arduino.
 
 ### Mise en place du python
 
-La partie python est très simple, vous n'avez qu'à lancer le programme nommé **main.py** 
+La partie python est très simple, vous n'avez qu'à lancer le programme nommé **main.py**.
 
+Vous pouvez utilisez pour vous connecter les identifiants suivants :
+- id : coolofdead
+- password : password
 
-
-et l'application vous guidera pas à pas.
+Ensuite l'application vous guidera pas à pas.
