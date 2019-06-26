@@ -1,4 +1,4 @@
-# **Présentation du projet plante connectée :**
+## **Présentation du projet plante connectée :**
 
 ### Mise en place de l'Arduino
 
@@ -17,3 +17,5 @@ Il ne vous reste plus qu'à téléverser le tout dans l'Arduino.
 
 
 ### Mise en place du python
+
+La partie python est très simple, vous n'avez qu'à lancer le programme nommé **main.py** et l'application vous guidera pas à pas.
