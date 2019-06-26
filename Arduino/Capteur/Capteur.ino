@@ -13,46 +13,63 @@
                       // INT0 interrupt pin on the Arduino.
     bool lightIntHappened = false; // flag set in the interrupt to let the
                      //  mainline code know that an interrupt occurred.
-
-
-
+    #include "DHT.h"
+                     
+#define DHTPIN 2
+#define DHTTYPE DHT11
+DHT dht(DHTPIN, DHTTYPE);
 
 #define _DEBUG_
 #define _DISABLE_TLS_
 #define THINGER_USE_STATIC_MEMORY
 #define THINGER_STATIC_MEMORY_SIZE 512
-
+#define ThingerWifi ThingerWifiClient
 
 #include <WiFi.h>
 #include <ThingerWifi.h>
 
+#define USERNAME "coolofdead"
+#define DEVICE_ID "arduino"
+#define DEVICE_CREDENTIAL "arduino"
 
-#define USERNAME "guigui"
-#define DEVICE_ID "arduino2"
-#define DEVICE_CREDENTIAL "arduino2"
-
-
-#define SSID "guillaume"
-#define SSID_PASSWORD "guillaume25"
+#define SSID "iPhone de Thomas"
+#define SSID_PASSWORD "coolofdead"
 
 ThingerWifi thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
+
+int temperature = 0;
+int humiditeAir = 0;
+int humiditeSol = 0;
 
 void setup() {
   Serial.begin(9600);
   // configure wifi network
   thing.add_wifi(SSID, SSID_PASSWORD);
 
-  pinMode(LED_BUILTIN, OUTPUT);
 
-  // pin control example (i.e. turning on/off a light, a relay, etc)
-  thing["test_nom"] << digitalPin(LED_BUILTIN);
 
-  
-  thing["capteurlumiere"] >> [](pson& out){
-    out["luminousflux"] = apds.readCH0Level();
+  thing["Luminosite"] >> [](pson& out){
+    out["Luminosite"] = apds.readCH0Level();
   };
-
-
+  
+  dht.begin();
+  thing["HumiditeAir"] >> [](pson& out){
+    out["HumiditeAir"] = humiditeAir;
+    
+  };
+  thing["HumiditeSol"] >> [](pson& out){
+    out["HumiditeSol"] = humiditeSol;
+  };
+  
+  
+  
+  dht.begin();
+  thing["Temperature"] >> [](pson& out){
+    out["Temperature"] = temperature;
+  };
+  
+  
+  
   
   delay(5);    // The CCS811 need  a brief delay after startup.
       Serial.begin(9600);
@@ -89,31 +106,57 @@ void setup() {
 
 void loop() {
   thing.handle();
-  thing.stream(thing["capteurlumiere"]);
+  if (isnan(dht.readTemperature())){
+      temperature = -1;
+  }
+  else{
+    temperature = dht.readTemperature();
+  }
+  
+  
+  
+  if (isnan(dht.readHumidity())){
+      humiditeAir = -1;
+  }
+  else{
+    humiditeAir = dht.readHumidity();
+  }
+    
+    
+    
+    
+
+if (analogRead(0)>600){
+    humiditeSol = -1;
+    
+  }
+  else{
+    humiditeSol = analogRead(0);
+  }
+    
+  
+  thing.stream(thing["HumiditeSol"]);
+  thing.stream(thing["HumiditeAir"]);
+  thing.stream(thing["Luminosite"]);
+  thing.stream(thing["Temperature"]);
+  
   static unsigned long outLoopTimer = 0;
       apds.clearIntFlag();                          
 
-      // This is a once-per-second timer that calculates and prints off
-      //  the current lux reading.
+     
       if (millis() - outLoopTimer >= 1000)
       {
+        
         outLoopTimer = millis();
-    
+        int value;
+        val = analogRead(0); //connect sensor to Analog 0
+        Serial.println(value); //print the value to serial port
         Serial.print("Luminous flux: ");
-        Serial.println(apds.readCH0Level(),10);
+        Serial.println(apds.readCH0Level());
+        Serial.println(dht.readHumidity());
+        Serial.println(dht.readTemperature());
+      };
 
-        if (lightIntHappened)
-        {
-          Serial.println("Interrupt");
-          lightIntHappened = false;
-        }
-      }
-      
-      
-      
-
-
-  
 } 
 
 
