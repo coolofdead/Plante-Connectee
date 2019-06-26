@@ -25,7 +25,7 @@ Il ne vous reste plus qu'à téléverser le tout dans l'Arduino.
 La partie python est très simple, vous n'avez qu'à lancer le programme nommé **main.py**.
 
 Vous pouvez utilisez pour vous connecter les identifiants suivants :
-- id : coolofdead
-- password : password
+- **id** : coolofdead
+- **password** : password
 
 Ensuite l'application vous guidera pas à pas.
