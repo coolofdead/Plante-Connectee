@@ -1,6 +1,6 @@
-# **Présentation du projet plante connectée : **
+# **Présentation du projet plante connectée :**
 
-## Mise en place de l'Arduino##
+## Mise en place de l'Arduino
 
 Pour faire fonctionner ce projet, il vous faudra télécharger les fichiers suivant :
 - Arduino
@@ -16,4 +16,4 @@ Format: ![Arduino Board Select](/Images/Arduino_Board.png)
 Il ne vous reste plus qu'à téléverser le tout dans l'Arduino.
 
 
-## Mise en place du python##
+## Mise en place du python
